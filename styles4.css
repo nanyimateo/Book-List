@@ -1,0 +1,158 @@
+body {
+    color: #333333;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Arial';
+    line-height: 1.5;
+}
+.container {
+    width: 500px;
+    margin: auto;
+    height: 600px;
+    background-color: #F5F5DC;  
+}
+
+h1 {
+    font-family: 'Merriweather', 'Georgia';
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #6B8E23;
+    color: #F5F5DC;
+    margin-bottom: 0px;
+}
+
+
+.author-info, .title-info, .add-button-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.input-container input {
+    width: 300px;
+}
+
+input#book-author, input#book-title {
+    outline: none;
+    border: 1px solid #b6b3b3;
+}
+
+input#book-author:focus , input#book-title:focus {
+    outline: none;
+    border: 1px solid #6B8E23;
+    padding: 0px 10px;
+}
+input#book-author {
+    width: 190px;
+}
+
+#add-book-form {
+    background-color: #B0C280;
+    padding: 10px 0px 20px 0px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+input#add-book {
+    background-color: #D2691E;
+    padding: 10px;
+    font-family: 'Open Sans', 'Arial';
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #333333;
+    font-size: 14px;
+}
+
+input#add-book:hover {
+    box-shadow: 2px 2px 5px #A54E15;
+}
+
+#delete-btn, #completed-btn {
+    padding: 5px;
+    margin: 0px 3px; 
+    font-family: 'Open Sans', 'Arial';
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #333333;
+    font-size: 14px;
+}
+
+#delete-btn:hover {
+    box-shadow: 2px 2px 5px #E9967A;
+}
+
+#completed-btn:hover {
+    box-shadow: 2px 2px 5px #A3D0A3;
+}
+
+#delete-btn {
+    background-color: #B35648;
+    color: #F5F5DC;
+}
+
+#completed-btn {
+    background-color: #8FBC8F;
+}
+
+li {
+    margin-top: 5px;
+}
+
+.invalid-msg {
+    background-color: #D2691E;
+    color: #F5F5DC;
+    width: 85%;
+    margin: 15px auto;
+    padding: 15px;
+    
+}
+
+
+/* 
+
+/* Design Instructions  
+
+
+### Color Palette:
+- **Primary Color**: A muted, **earthy green (#6B8E23)** or soft **sage green (#B2BCA7)**. This creates a calming, nature-inspired feel that aligns with a book-centered app, giving a relaxed and comfortable atmosphere.
+- **Secondary Color**: A **warm beige (#F5F5DC)** for background sections. This adds a cozy, neutral foundation that helps with readability and allows the content to stand out.
+- **Accent Color**: A subtle **rust orange (#D2691E)** for buttons and other actionable elements, adding a touch of warmth and guiding users' attention naturally.
+- **Font Color**: **Dark charcoal (#333333)** for body text for high contrast without the starkness of pure black. Use a softer gray for secondary text, like invalid messages or completed book titles, around **#808080**.
+- **Completed Items**: When a book is marked as completed, use **light gray (#C0C0C0)** for the strike-through text, paired with a softer strike-through line color (e.g., **#A9A9A9**) to gently indicate task completion.
+
+### Typography:
+- **Font Family**: A clean, modern serif font like **Merriweather** or **Georgia** to evoke a literary vibe. Pair this with a sans-serif like **Open Sans** or **Roboto** for labels and buttons to create balance.
+- **Heading (e.g., form labels)**: Use a medium weight, 18-20px font size to distinguish these elements from the body text.
+- **Body Text**: 16px for readability, with a line height of 1.5 for proper spacing. Use italics or bold sparingly, only for key elements like titles.
+- **Button Text**: 14px, bold, and all-uppercase for clarity and prominence.
+
+### Styles:
+- **Buttons**:
+  - Rounded corners (e.g., 5px) for a friendly, approachable look.
+  - Soft shadow on hover to give a subtle sense of interaction.
+  - Completed and delete buttons should have clear hover states, such as a slight darkening of the background or changing the font color.
+- **Form Input Fields**:
+  - Simple, bordered with a 1px solid border in a light gray.
+  - Add subtle padding inside the inputs for ease of use (10px padding).
+  - On focus, change the border color to the primary earthy green to create consistency.
+  
+### Vibe and Aesthetics:
+- The app should feel **cozy, calming, and organized**, reflecting the experience of being in a peaceful reading nook. 
+- Use ample **white space** to prevent clutter and give a sense of openness and ease. Each element should have enough breathing room, especially between form inputs, the list, and buttons.
+- For the **completed books**, you could introduce a visual change like a faded background color for the list items (light gray, around #EAEAEA), maintaining a calm, neutral look while showing progress.
+
+### UX Design:
+- **Minimalist and User-Friendly**: Every interaction should be intuitive and simple. Focus on minimalistic design to keep distractions low, allowing users to focus on managing their book list.
+- **Responsive**: Ensure the design adapts well to both mobile and desktop. Buttons and input fields should be easy to tap or click on mobile.
+- **Feedback**: Use subtle animations (e.g., button click effects, fading in/out error messages) to enhance the user experience and give real-time feedback on interactions (e.g., showing the "completed" status).
+
+With this style guide, the app should have a cozy, bookish feel, balancing simplicity with elegance.
+
+
+
+ */

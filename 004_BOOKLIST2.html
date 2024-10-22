@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <meta lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height">
+    <title>My Book List</title>
+    <link href="styles4.css" rel="stylesheet">
+
+    <!-- Font families -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <h1>Book List</h1>
+        <form id="add-book-form">
+            
+                <div class="title-info">
+                    <label for="book-title">Book Title:</label>
+                    <input type="text" id="book-title"></input>
+                </div>
+
+                <div class="author-info"> 
+                    <label for="book-author">Author:</label>
+                    <input type="text" id="book-author"></input>
+                </div>
+            
+            
+            <div class="add-button-container">
+                <label for="add-book"></label>
+                <input type="submit" id="add-book" value="ADD BOOK"></input>
+            </div>
+        </form>
+
+        <div id="invalid-msg-box"><p id="invalid-msg"></p></div>
+
+        <ul id="book-list">
+        </ul>
+    </div>
+
+    <script src="script4.js"></script>
+</body>
+</html>
